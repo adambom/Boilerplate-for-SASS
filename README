@@ -1,0 +1,13 @@
+To watch for changes in you scss and compile in real time, use: sass --watch src/css:main/css
+
+Put your application's scss styles in src/css/partials/_common.scss
+
+Include any other partials in src/css/style.scss, like so:
+
+/* Some HTML 5 Boilerplate stuff */
+@import "partials/boilerplate-top";
+/* Put your styles in partials/_common.scss */
+@import "partials/common";
+/* @import "partials/my-super-special-mixin" */
+/* Some more HTML 5 Boilerplate stuff */
+@import "partials/boilerplate-bottom"; 
